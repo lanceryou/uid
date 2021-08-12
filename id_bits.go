@@ -79,7 +79,7 @@ func (i *IdBits) overSequence(seq int64) bool {
 	return seq > int64(i.maxSequence)
 }
 
-var idBits = NewIdBits(28, 22, 13)
+var idBits = NewIdBits(40, 7, 16)
 
 func SetIdBits(i *IdBits) {
 	idBits = i
